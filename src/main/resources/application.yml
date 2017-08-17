@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: BicsAlertManager
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+
+alerts:
+  alertConfigurations:
+   -
+      serviceCode: "IOT"
+      errorCode: "1001"
+      emails:
+        - "mahmoud.romih@test.com"
+        - "mahmoud.romih@test.com"
+      maxCount: "3"
+   -
+      serviceCode: "IOT"
+      errorCode: "1002"
+      emails:
+        - "mahmoud.romih@test.com"
+        - "mahmoud.romih@test.com"
+      maxCount: "2"
