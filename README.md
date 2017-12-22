@@ -15,4 +15,6 @@ abstraction is supported by many caching libraries, including:
 
 
 
-this one is a sample for spring boot web with ehcaceh3 file persistence support
+this one is a sample for spring boot web with ehcaceh3 file persistence support and how to inject the cache manager plus how to do operations with the cache itself , for more information please check my blog :
+
+https://mromeh.com/2017/12/22/spring-boot-with-ehcache-3-and-jsr-107/
