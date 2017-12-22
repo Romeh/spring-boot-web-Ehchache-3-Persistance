@@ -37,17 +37,13 @@
         <jacoco.dataFile>${project.basedir}/../target/jacoco.exec</jacoco.dataFile>
         <jacoco.reporting.outputDirectory>${project.basedir}/../target/reports/jacoco</jacoco.reporting.outputDirectory>
         <jacoco.inclNoLocationClasses>true</jacoco.inclNoLocationClasses>
-        <ehcache>3.3.1</ehcache>
+        <ehcache>3.4.0</ehcache>
     </properties>
 
     <dependencies>
        <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>-->
-      <!--  <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

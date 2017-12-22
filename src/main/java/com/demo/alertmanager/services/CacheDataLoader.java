@@ -19,8 +19,6 @@ public class CacheDataLoader {
     @Autowired
     private javax.cache.CacheManager cacheManager;
 
-/*  @Autowired
-    private org.springframework.cache.CacheManager cacheManager;*/
     @Autowired
     private AlertsConfiguration alertsConfig;
 

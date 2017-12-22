@@ -1,4 +1,4 @@
-# springboot web echache3 file Persistance
+# Spring boot web Echache3 file Persistence
 
 his sample demonstrates the caching auto-configuration support. Spring's caching
 abstraction is supported by many caching libraries, including:
@@ -15,4 +15,4 @@ abstraction is supported by many caching libraries, including:
 
 
 
-this one is a sample for spring boot web with ehcaceh3 file persistance support
+this one is a sample for spring boot web with ehcaceh3 file persistence support

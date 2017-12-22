@@ -1,6 +1,6 @@
 spring:
   application:
-    name: BicsAlertManager
+    name: EhCacheAlertManager
 #  cache:
 #    ehcache:
 #      config: classpath:ehcache.xml
@@ -8,15 +8,15 @@ spring:
 alerts:
   alertConfigurations:
    -
-      serviceCode: "IOT_TEST"
-      errorCode: "1001_TEST"
+      serviceCode: "SERVICE_TEST"
+      errorCode: "CODE_TEST"
       emails:
         - "mahmoud.romih@test.com.test"
         - "mahmoud.romih@test.com.test"
       maxCount: "3"
    -
-      serviceCode: "IOT_TEST"
-      errorCode: "1002_TEST"
+      serviceCode: "SERVICE_TEST2"
+      errorCode: "CODE_TEST2"
       emails:
         - "mahmoud.romih@test.com.test"
         - "mahmoud.romih@test.com.test"

@@ -1,24 +1,16 @@
 <config
         xmlns:jsr107='http://www.ehcache.org/v3/jsr107'
         xmlns='http://www.ehcache.org/v3'>
-
-   <!-- <service>
-        <jsr107:defaults>
-            <jsr107:cache name="AlertsConfig" template="heap-cache"/>
-            <jsr107:cache name="Alerts" template="alerts-template"/>
-        </jsr107:defaults>
-    </service>
-    -->
     <service>
         <jsr107:defaults enable-management="true" enable-statistics="true"/>
     </service>
 
     <persistence directory="./cache"></persistence>
 
-    <cache alias="AlertsConfig" uses-template="heap-cache"/>
+    <cache alias="AlertsConfig" uses-template="config-cache"/>
     <cache alias="Alerts" uses-template="alerts-template"/>
 
-    <cache-template name="heap-cache">
+    <cache-template name="config-cache">
 
         <listeners>
             <listener>
@@ -33,7 +25,7 @@
             </listener>
         </listeners>
         <resources>
-            <heap unit="entries">1</heap>
+            <heap>1</heap>
             <offheap unit="MB">1</offheap>
             <disk persistent="true" unit="MB">100</disk>
         </resources>
@@ -54,7 +46,7 @@
             </listener>
         </listeners>
         <resources>
-          <heap unit="entries">1</heap>
+          <heap>1</heap>
             <offheap unit="MB">1</offheap>
             <disk persistent="true" unit="MB">100</disk>
         </resources>

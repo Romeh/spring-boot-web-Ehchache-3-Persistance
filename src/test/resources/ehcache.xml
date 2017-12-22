@@ -23,7 +23,7 @@
             </listener>
         </listeners>
         <resources>
-            <heap unit="entries">100</heap>
+            <heap>100</heap>
             <offheap unit="MB">1</offheap>
         </resources>
     </cache-template>
@@ -43,7 +43,7 @@
             </listener>
         </listeners>
         <resources>
-            <heap unit="entries">100</heap>
+            <heap>100</heap>
             <offheap unit="MB">1</offheap>
         </resources>
     </cache-template>
